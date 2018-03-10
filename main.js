@@ -1,7 +1,6 @@
 
   var Loader = document.querySelector(".Loader");
   var box1 = document.getElementById('box1');
-  var itemHov1 = document.getElementById('titleitem1');
   var spacerRLDP = document.getElementById('Spacer1')
 
 
@@ -10,7 +9,7 @@
     Loader.style.zIndex = "-1";
 
   }, 700);
-  
+
   box1.addEventListener("mouseenter", function() {
     spacerRLDP.style.width = "70px";
     spacerRLDP.style.transition = '0.2s';
