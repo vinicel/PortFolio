@@ -106,7 +106,20 @@ body {
   .aboutTitle {
     font-family: "Acronym Hairline";
     font-weight: bolder;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
+  }
+  .about:hover .spacerAbout {
+    margin: 1px 0 0 -10px;
+    width: 33px;
+    height: 1px;
+    background-color: black;
+    transition: 0.2s
+  }
+  .spacerAbout {
+    margin: 1px 0 0 -10px;
+    width: 0;
+    height: 1px;
+    background-color: black;
   }
   * {
     box-sizing: border-box;
