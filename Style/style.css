@@ -148,8 +148,6 @@ body {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    width: 100vw;
-    height: 10vh;
   }
   .Logo {
     grid-row: 1;
@@ -191,10 +189,9 @@ body {
     grid-gap: 10px;
   }
   .navContainer {
-    z-index: 0;
-    padding: 1em 0 2em 2em;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(1, 1fr);
   }
   .itemContainer {
     padding: 0 0 0 3em;
@@ -257,7 +254,16 @@ Cover1
     margin: 0 !important;
     opacity: 0 !important;
   }
-  .itemRLDP {}
+  .itemRLDP {
+    grid-column: 1/10;
+    grid-row: 1;
+  }
+  .spacerRLDP {
+    margin: 1px 0 0 -10px;
+    width: 0px;
+    height: 1px;
+    background-color: black;
+  }
   /*
 Cover2
   */
@@ -311,6 +317,10 @@ Cover2
     -webkit-filter: blur(0);
     filter: blur(0);
   }
+  .Port {
+    grid-column: 4/10;
+    grid-row: 1;
+  }
   /*
 Cover3
   */
@@ -363,5 +373,9 @@ Cover3
     opacity: 1;
     -webkit-filter: blur(0);
     filter: blur(0);
+  }
+  .itemRBF {
+    grid-column: 6/10;
+    grid-row: 1;
   }
 }
