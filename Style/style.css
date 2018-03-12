@@ -120,7 +120,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1150px) {
   .mobileSection {
     display: none;
   }
@@ -164,7 +164,7 @@ body {
     letter-spacing: 4px;
   }
   .about {
-    grid-column: 9/10;
+    grid-column: 11/11;
     grid-row: 1
   }
   .about:hover .spacerAbout {
@@ -321,6 +321,12 @@ Cover2
     grid-column: 4/10;
     grid-row: 1;
   }
+  .spacerPort {
+    margin: 1px 0 0 -10px;
+    width: 0px;
+    height: 1px;
+    background-color: black;
+  }
   /*
 Cover3
   */
@@ -377,5 +383,11 @@ Cover3
   .itemRBF {
     grid-column: 6/10;
     grid-row: 1;
+  }
+  .spacerRBF {
+    margin: 1px 0 0 -10px;
+    width: 0px;
+    height: 1px;
+    background-color: black;
   }
 }
