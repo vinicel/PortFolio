@@ -167,6 +167,7 @@ body {
   .aboutTitle {
     font-family: "Acronym Hairline";
     letter-spacing: 4px;
+    font-weight: bolder;
   }
   .about {
     grid-column: 11/11;
