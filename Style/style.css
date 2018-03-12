@@ -157,6 +157,7 @@ body {
     font-family: "Acronym Hairline";
     letter-spacing: 7px;
     font-size: 20px;
+    font-weight: bolder;
   }
   .aboutTitle {
     font-family: "Acronym Hairline";
@@ -166,13 +167,6 @@ body {
   .about {
     grid-column: 11/11;
     grid-row: 1
-  }
-  .about:hover .spacerAbout {
-    margin: 1px 0 0 -10px;
-    width: 33px;
-    height: 1px;
-    background-color: black;
-    transition: 0.2s
   }
   .spacerAbout {
     margin: 1px 0 0 -10px;
