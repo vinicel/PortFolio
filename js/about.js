@@ -15,8 +15,7 @@ setTimeout(function() {
 }, 700);
 
 cv.addEventListener("mouseenter", function() {
-    cv.style.padding = " O O 2Opx O";
-    cv.style.transition = '0.2s';
+  console.log("ok");
   });
 
 boxAbout.addEventListener("mouseenter", function() {

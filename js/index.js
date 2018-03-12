@@ -10,6 +10,10 @@
   var spacerPort = document.getElementById('Spacer2')
   var spacerRBF = document.getElementById('Spacer3')
   var spacerAbout = document.getElementById('spacerAbout')
+
+  var imgProjet1= document.getElementById('img1')
+
+
   setTimeout(function() {
     Loader.classList.add("Loader-animation");
     Loader.style.zIndex = "-1";
@@ -31,6 +35,9 @@
   box1.addEventListener("mouseenter", function() {
     spacerRLDP.style.width = "70px";
     spacerRLDP.style.transition = '0.2s';
+    imgProjet1.style.opacity= '1';
+    imgProjet1.style.fliter = 'blur(1px)';
+
   });
 
   box1.addEventListener("mouseleave", function() {
@@ -38,6 +45,7 @@
     spacerRLDP.style.width = "0px";
     spacerRLDP.style.transition = '0.2s';
   });
+
 
 box2.addEventListener("mouseenter", function() {
     spacerPort.style.width = "40px";
