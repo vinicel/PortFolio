@@ -16,6 +16,18 @@
 
   }, 700);
 
+  boxAbout.addEventListener("mouseenter", function() {
+      spacerAbout.style.width = "33px";
+      spacerAbout.style.transition = '0.2s';
+    });
+
+    boxAbout.addEventListener("mouseleave", function() {
+
+      spacerAbout.style.width = "0px";
+      spacerAbout.style.transition = '0.2s';
+    });
+
+
   box1.addEventListener("mouseenter", function() {
     spacerRLDP.style.width = "70px";
     spacerRLDP.style.transition = '0.2s';
@@ -48,14 +60,3 @@ box2.addEventListener("mouseenter", function() {
       spacerRBF.style.width = "0px";
       spacerRBF.style.transition = '0.2s';
     });
-
-    boxAbout.addEventListener("mouseenter", function() {
-        spacerAbout.style.width = "33px";
-        spacerAbout.style.transition = '0.2s';
-      });
-
-      boxAbout.addEventListener("mouseleave", function() {
-
-        spacerAbout.style.width = "0px";
-        spacerAbout.style.transition = '0.2s';
-      });

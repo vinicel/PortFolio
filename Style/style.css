@@ -96,6 +96,11 @@ body {
   margin: 0 40px 0 0;
 }
 
+.info {
+  font-style: italic;
+  font-weight: bolder;
+}
+
 @media screen and (min-width: 768px) {
   .mobileSection {
     display: grid;
@@ -161,7 +166,6 @@ body {
   }
   .aboutTitle {
     font-family: "Acronym Hairline";
-    font-weight: bolder;
     letter-spacing: 4px;
   }
   .about {
