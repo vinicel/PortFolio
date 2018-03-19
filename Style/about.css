@@ -4,6 +4,8 @@
     grid-row: 3/10;
   }
   .CV {
+    width: 20px;
+    height: 20px;
     font-weight: bolder;
   }
 }

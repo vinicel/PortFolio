@@ -15,7 +15,7 @@ setTimeout(function() {
 }, 700);
 
 cv.addEventListener("mouseenter", function() {
-  console.log("ok");
+  cv.style.opacity = 
   });
 
 boxAbout.addEventListener("mouseenter", function() {
