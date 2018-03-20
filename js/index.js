@@ -20,12 +20,6 @@
   var imgProjet3= document.getElementById('img3');
 
 
-  setTimeout(function() {
-    Loader.classList.add("Loader-animation");
-    Loader.style.zIndex = "-1";
-
-  }, 700);
-
 
   boxAbout.addEventListener("mouseenter", function() {
       spacerAbout.style.width = "33px";
@@ -36,7 +30,6 @@
       spacerAbout.style.width = "0px";
       spacerAbout.style.transition = '0.2s';
     });
-
 
     //item1
 
@@ -55,7 +48,7 @@
     spacerRLDP.style.transition = '0.3s';
     imgProjet1.style.transition= '0.3s';
     imgProjet1.style.opacity= '0.4';
-    imgProjet1.style.filter=' grayscale(100%)';
+    imgProjet1.style.filter=' grayscale(100%) blur(2px)';
     box1.style.zIndex='0';
 
 
@@ -76,7 +69,7 @@
     spacerRLDP.style.transition = '0.3s';
     imgProjet1.style.transition= '0.3s';
     imgProjet1.style.opacity= '0.4';
-    imgProjet1.style.filter=' grayscale(100%)';
+    imgProjet1.style.filter=' grayscale(100%) blur(2px)';
     box1.style.zIndex='0';
 
   });
@@ -101,7 +94,7 @@ box2.addEventListener("mouseenter", function() {
     spacerPort.style.transition = '0.2s';
     imgProjet2.style.transition= '0.3s';
     imgProjet2.style.opacity= '0.4';
-    imgProjet2.style.filter=' grayscale(100%)';
+    imgProjet2.style.filter=' grayscale(100%) blur(2px) ';
     box2.style.zIndex='0';
 
   });
@@ -122,7 +115,7 @@ box2.addEventListener("mouseenter", function() {
       spacerPort.style.transition = '0.2s';
       imgProjet2.style.transition= '0.3s';
       imgProjet2.style.opacity= '0.4';
-      imgProjet2.style.filter=' grayscale(100%)';
+      imgProjet2.style.filter=' grayscale(100%) blur(2px)';
       box2.style.zIndex='0';
 
     });
@@ -143,7 +136,7 @@ box2.addEventListener("mouseenter", function() {
       spacerRBF.style.transition = '0.2s';
       imgProjet3.style.transition= '0.3s';
       imgProjet3.style.opacity= '0.4';
-      imgProjet3.style.filter=' grayscale(100%)';
+      imgProjet3.style.filter=' grayscale(100%) blur(2px)';
       box3.style.zIndex='0';
 
     });
@@ -163,7 +156,7 @@ box2.addEventListener("mouseenter", function() {
         spacerRBF.style.transition = '0.2s';
         imgProjet3.style.transition= '0.3s';
         imgProjet3.style.opacity= '0.4';
-        imgProjet3.style.filter=' grayscale(100%)';
+        imgProjet3.style.filter=' grayscale(100%) blur(2px)';
         box3.style.zIndex='0';
 
       });
